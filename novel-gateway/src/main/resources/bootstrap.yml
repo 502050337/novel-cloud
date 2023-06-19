@@ -1,14 +1,10 @@
-
 spring:
   application:
     name: novel-gateway
   cloud:
     nacos:
       config:
-        server-addr: 47.106.243.172:8848
+        server-addr: 192.168.10.110:8848
         file-extension: yml
-        group: ${spring.application.name}
-        namespace: 3960c71a-62ac-4b8f-8c30-bba8e8143a0c
 
-  main:
-    allow-bean-definition-overriding: true
+
